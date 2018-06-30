@@ -1,0 +1,9 @@
+# Todos os arquivos são considerados textuais, se possível.
+* text=auto
+
+# Garante o padrão Unix de quebras de linha.
+* eol=lf
+
+# Os conflitos de versionamento no índice de dependências do Yarn é ignorado,
+# pois desde a versão 1.0 o Yarn automaticamente os resolve.
+yarn.lock -diff

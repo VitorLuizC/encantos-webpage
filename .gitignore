@@ -1,0 +1,13 @@
+# Arquivo de configuração do Finder (Mac).
+.DS_Store
+
+# Módulos do Node.js.
+node_modules/
+
+# Arquivos de Logs.
+*.log
+*.log.*
+
+# Índice de dependências do NPM. Esse arquivo é ignorado porque estou usando o
+# Yarn e este têm seu próprio índice de depêndencias.
+package-lock.json
