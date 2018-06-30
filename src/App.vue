@@ -3,17 +3,7 @@
 </template>
 
 <style lang="stylus">
-  *
-    box-sizing: border-box
-    margin: 0
-    padding: 0
-
-  html
-    font-size: 62.5%
-
-  html
-  body
-    height: 100%
+  @import '~@/assets/styles/typography'
 
   @font-face
     font-family: 'Nexa'
@@ -32,4 +22,17 @@
     src: url('~@/assets/fonts/AristotelicaDisplay-Extralight.woff') format('woff'),
          url('~@/assets/fonts/AristotelicaDisplay-Extralight.woff2') format('woff2')
     font-weight: 200
+
+  *
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+  html
+    font-size: 62.5%
+
+  html
+  body
+    height: 100%
+    typography: 'Aristotelica'
 </style>
