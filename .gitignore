@@ -11,3 +11,6 @@ node_modules/
 # Índice de dependências do NPM. Esse arquivo é ignorado porque estou usando o
 # Yarn e este têm seu próprio índice de depêndencias.
 package-lock.json
+
+# Arquivos de distribuição.
+dist/
