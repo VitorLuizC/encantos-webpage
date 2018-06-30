@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build:html": "pug src/index.pug -o dist/",
+    "build:html": "pug src/index.pug -o dist/ --pretty",
     "build:css": "stylus src/index.styl -o dist/style.css",
     "build": "concurrently \"npm run build:html\" \"npm run build:css\""
   },
