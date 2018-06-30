@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build:html": "pug src/index.pug -o dist/",
+    "build:css": "stylus src/index.styl -o dist/style.css",
+    "build": "concurrently \"npm run build:html\" \"npm run build:css\""
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "stylus": "^0.54.5"
+  }
+}
