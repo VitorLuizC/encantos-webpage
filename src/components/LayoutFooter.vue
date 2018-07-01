@@ -24,10 +24,10 @@
   @import '~@/assets/styles/colors'
 
   $center
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
+    display: flex
+    align-items: flex-start
+    flex-direction: column
+    justify-content: center
 
   .LayoutFooter
     display: flex
