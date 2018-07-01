@@ -1,8 +1,8 @@
 <template>
   <header class="LayoutHeader">
     <img class="logo" src="~@/assets/images/Logo.png" alt="Encantos" />
-    <nav class="navigation">
-      <layout-navigation-link
+    <nav class="links">
+      <layout-header-link
         v-for="item in items"
         class="link"
         :key="item.name"
@@ -14,7 +14,7 @@
 </template>
 
 <script>
-  import LayoutNavigationLink from '@/components/LayoutNavigationLink';
+  import LayoutHeaderLink from '@/components/LayoutHeaderLink';
 
   const items = [
     {
@@ -40,7 +40,7 @@
   ];
 
   export default {
-    components: { LayoutNavigationLink },
+    components: { LayoutHeaderLink },
     data () {
       return {
         items
@@ -68,7 +68,7 @@
       height: 115px
       margin-left: 100px
 
-    > .navigation
+    > .links
       display: flex
       align-items: flex-start
       justify-content: flex-start
