@@ -1,15 +1,17 @@
 <template>
   <section>
     <layout-header />
+    <layout-banner />
     <router-view />
   </section>
 </template>
 
 <script>
   import LayoutHeader from '@/components/LayoutHeader';
+  import LayoutBanner from '@/components/LayoutBanner';
 
   export default {
-    components: { LayoutHeader }
+    components: { LayoutHeader, LayoutBanner }
   };
 </script>
 
