@@ -1,6 +1,17 @@
 <template>
-  <h1>Encantos</h1>
+  <section>
+    <layout-header />
+    <router-view />
+  </section>
 </template>
+
+<script>
+  import LayoutHeader from '@/components/LayoutHeader';
+
+  export default {
+    components: { LayoutHeader }
+  };
+</script>
 
 <style lang="stylus">
   @import '~@/assets/styles/typography'
@@ -24,6 +35,8 @@
     font-weight: 200
 
   *
+  *::after
+  *::before
     box-sizing: border-box
     margin: 0
     padding: 0
