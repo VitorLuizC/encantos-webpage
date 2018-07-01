@@ -23,7 +23,7 @@
     </carousel-item>
     <carousel-item>
       <layout-banner-image
-        :link="{ name: 'Home' }"
+        :link="{ name: 'Donations' }"
         :image="require('@/assets/images/Banner-3.png')"
         description="Faça uma doação"
       />

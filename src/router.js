@@ -8,7 +8,13 @@ const router = new Router({
   routes: [
     {
       path: '/',
+      name: 'Home',
       component: () => import('@/screens/Home')
+    },
+    {
+      path: '/doacoes',
+      name: 'Donations',
+      component: () => import('@/screens/Donations')
     }
   ]
 });
