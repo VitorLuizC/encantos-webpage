@@ -1,17 +1,19 @@
 <template>
-  <section>
+  <section class="container">
     <layout-header />
     <layout-banner />
     <router-view />
+    <layout-footer class="footer" />
   </section>
 </template>
 
 <script>
   import LayoutHeader from '@/components/LayoutHeader';
   import LayoutBanner from '@/components/LayoutBanner';
+  import LayoutFooter from '@/components/LayoutFooter';
 
   export default {
-    components: { LayoutHeader, LayoutBanner }
+    components: { LayoutHeader, LayoutBanner, LayoutFooter }
   };
 </script>
 
@@ -50,4 +52,12 @@
   body
     height: 100%
     typography: 'Aristotelica'
+
+  .container
+    display: flex
+    flex-direction: column
+    min-height: 100%
+
+    > .footer
+      margin-top: auto
 </style>
