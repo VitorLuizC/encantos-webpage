@@ -1,7 +1,5 @@
 <template>
-  <section class="DonationsScreen">
-    <h2 class="title">Como ajudar</h2>
-
+  <leafeon-screen class="DonationsScreen" title="Como ajudar">
     <div class="cards">
       <div class="card">
         <img class="image" src="~@/assets/icons/People.png" alt="Doações" />
@@ -24,14 +22,15 @@
         <leafeon-button class="button">sobre</leafeon-button>
       </div>
     </div>
-  </section>
+  </leafeon-screen>
 </template>
 
 <script>
   import LeafeonButton from '@/components/Leafeon/LeafeonButton';
+  import LeafeonScreen from '@/components/Leafeon/LeafeonScreen';
 
   export default {
-    components: { LeafeonButton }
+    components: { LeafeonButton, LeafeonScreen }
   };
 </script>
 
@@ -65,10 +64,10 @@
       > .card:nth-child(3n + 3)
         transform: scale(.9)
         background-color: #AD6215
-        z-index: -1
+        z-index: 0
 
       > .card:nth-child(3n + 2)
-        z-index: 0
+        z-index: 1
 
       > .card
         display: flex

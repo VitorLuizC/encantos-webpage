@@ -15,6 +15,11 @@ const router = new Router({
       path: '/doacoes',
       name: 'Donations',
       component: () => import('@/screens/Donations')
+    },
+    {
+      path: '/cursos',
+      name: 'Courses',
+      component: () => import('@/screens/Courses')
     }
   ]
 });

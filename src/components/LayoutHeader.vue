@@ -22,7 +22,7 @@
       name: 'sobre'
     },
     {
-      link: { name: 'Home' },
+      link: { name: 'Courses' },
       name: 'cursos'
     },
     {
