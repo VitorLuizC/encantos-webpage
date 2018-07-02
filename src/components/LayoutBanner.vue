@@ -52,7 +52,7 @@
       background-color: transparent !important
       background-image: none        !important
       typography: 'Nexa-Light'      !important
-      font-size: 115pt              !important
+      font-size: 115px              !important
       color: $colorTypographyLight  !important
 
     > .VueCarousel-navigation-prev

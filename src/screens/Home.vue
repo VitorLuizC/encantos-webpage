@@ -18,7 +18,7 @@
     <home-description
       color="contrast-3"
       title="Valores"
-      description="-Pertencimento<br />-Expressividade<br />-Fraternidade"
+      description="- Pertencimento<br />- Expressividade<br />- Fraternidade"
     />
   </section>
 </template>
